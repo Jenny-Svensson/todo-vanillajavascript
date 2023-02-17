@@ -109,7 +109,8 @@ function addNewAssignment() {
       date: deadlineText,
       createdAt: createdAtText,
     });
-    printToDoAssignments();
+    printToDoAssignments(addNewAssignment);
+    newAssignmentName.value = "";
   }
 }
 
